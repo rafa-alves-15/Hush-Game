@@ -1,7 +1,7 @@
 const intro = {
   inicio: {
     historia:
-      "Você é um(a) escritoro(a) que vive uma vida isolada desde que perdeu sua audição quando era adolescente, se colando em um mundo de total silêncio. Sua amiga e vizinha Sarah a visita um dia para devolver uma cópia de um de seus livros, e sarah diz que quer treinar mais libras...",
+      "Você é uma escritora que vive uma vida isolada desde que perdeu sua audição quando era adolescente, se colando em um mundo de total silêncio. Sua amiga e vizinha Sarah a visita um dia para devolver uma cópia de um de seus livros, e sarah diz que quer treinar mais libras...",
     imagem: "Imagens/imagens/sarah.jpg",
     button1: {
       texto: "Vocês ensina um pouco de libras para Sarah e conversar um pouco",

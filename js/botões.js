@@ -19,8 +19,6 @@ function atualizarTela() {
   } else {
     elementoButton2.remove();
   }
-
-
 }
 elementoButton1.addEventListener("click", aoClicarNoBotao);
 elementoButton2.addEventListener("click", aoClicarNoBotao);
