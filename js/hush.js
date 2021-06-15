@@ -41,54 +41,53 @@ const intro = {
   },
   h3: {
     historia: "",
-    imagem: "images/b01.jpg",
+    imagem: "",
     button1: {
       texto:
-        "ESCOLHA 1: Geralt olha bem para o Bardo e o pede para se afastar com a delicadeza de um bruxo...",
+        "",
       passo: "h4",
     },
     button2: {
-      texto: "ESCOLHA 2: Geralt apenas ignora o Bardo e segue seu caminho...",
+      texto: "",
       passo: "h5",
     },
   },
   h4: {
     historia: "",
-    imagem: "images/b2.gif",
+    imagem: "",
     button1: {
-      texto: "-Geralt: ...Vem cá, deixa eu te dizer uma coisinha...",
+      texto: "",
       passo: "h6",
     },
     button2: {
       texto:
-        "-Jaskier: ...Desgraça... para quê que eu fui mexer com o Lobo branco, arg...",
+        "",
       passo: "h6",
     },
   },
   h5: {
     historia: "",
-    imagem: "images/b21.gif",
+    imagem: "",
     button1: {
       texto:
-        "-Jaskier cantarolando: Quando um humilde bardo, Embarcou em uma caminhada, Com Geralt de Rívia, Surgiu esta canção, De quando o Lobo Branco lutou, Contra um diabo astuto...",
+        "",
       passo: "h6",
     },
     button2: {
       texto:
-        "...Enquanto os chifres do diabo Esmagavam nossa carne, Então o Bruxo gritou, Ele não pode ser derrotado! Um campeão prevaleceu, Derrotou o vilão, Agora sirvam-lhe uma cerveja...",
-      passo: "h6",
+        "",
     },
   },
  
   fim: {
     historia: "",
-    imagem: "images/fim.jpg",
+    imagem: "",
     botao1: null,
     botao2: null,
   },
   umaOp: {
     historia: "",
-    imagem: "images/b2.jpg",
+    imagem: "",
     botao1: {
       texto: "continua",
       passo: "fim",

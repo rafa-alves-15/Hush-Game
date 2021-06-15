@@ -112,19 +112,17 @@ h1 {
   border: 2;
   background-color: rgba(13, 17, 37, 0.664);
   color: white;
-  background-size: cover;
+  /* background-size: cover; */
   height: 100%;
   width: 80%;
   font-size: 20px;
-  outline: none;
   margin: 0 7px ;
-  cursor: pointer;
   font-size: 15px;
   font-weight: bolder;
   padding: 15px 32px;
   text-align: center;
-  text-justify: newspaper;
 }
-.botao:active {
+
+.button:active {
   border: 0;
 }
