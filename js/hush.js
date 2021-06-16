@@ -32,7 +32,6 @@ const intro = {
       texto: "Proxímo",
       passo: "h3",
     },
- 
   },
   h3: {
     historia:
@@ -42,22 +41,23 @@ const intro = {
       texto: "Proxímo",
       passo: "h4",
     },
-
   },
   h4: {
-    historia: "Então você ",
+    historia:
+      "Em seguida você vai para o sofá e abre o Macbook para continuar escrevendo seu livro, e o assasino então na casa e vai se aproximando de você, e no exato momento sua irmã Max te liga ",
     imagem: "",
     button1: {
-      texto: "",
+      texto: "Você aceita a ligação de Max",
       passo: "h6",
     },
     button2: {
-      texto: "",
+      texto: "Você Recusa a liga de Max",
       passo: "h6",
     },
   },
   h5: {
-    historia: "",
+    historia:
+      "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular e tira varias fotos de dentro da casa e suas",
     imagem: "",
     button1: {
       texto: "",

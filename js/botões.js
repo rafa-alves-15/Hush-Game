@@ -1,18 +1,13 @@
-const elementoHistoria = document.getElementById("historia");
-const elementoImagem = document.getElementById("imagem");
-const elementoButton1 = document.getElementById("button1");
-const elementoButton2 = document.getElementById("button2");
-// const elementoButton = document.getElementsById("buttons");
+const elementoButton = document.getElementById("buttons");
 
-let passoAtual = intro.inicio;
-// let count = 0;
+function atualizarTela(elementoHistoria, elementoImagem, elementoButton1, elementoButton2, passoAtual) {
+  
 
-function atualizarTela() {
-        elementoHistoria.setAttribute("inicio", passoAtual.historia);
-        elementoImagem.setAttribute("src", passoAtual.imagem);
+  elementoHistoria.innerText = passoAtual.historia;
+
+  elementoImagem.setAttribute("src", passoAtual.imagem);
 
   if (passoAtual.button1) {
-
     elementoButton1.innerText = passoAtual.button1.texto;
   } else {
     elementoButton1.remove();
@@ -22,29 +17,81 @@ function atualizarTela() {
   } else {
     elementoButton2.remove();
   }
- 
 }
 
-elementoButton1.addEventListener("click", aoClicarNoBotao);
-elementoButton2.addEventListener("click", aoClicarNoBotao);
-
-function aoClicarNoBotao() {
-  const elementoBotao = this;
+function aoClicarNoBotao(
+  elementoBotao,
+  elementoHistoria,
+  elementoImagem,
+  elementoButton1,
+  elementoButton2,
+  passoAtual)
+  {
   const botaoClicado = elementoBotao.id;
   const proximoPasso = passoAtual[botaoClicado].passo;
   passoAtual = intro[proximoPasso];
   if (!passoAtual) {
     alert("Passo " + proximoPasso + " não encontrado!");
   } else {
-    atualizarTela();
+    atualizarTela(
+      elementoHistoria,
+      elementoImagem,
+      elementoButton1,
+      elementoButton2,
+      passoAtual
+    );
   }
-}
-atualizarTela();
+  }
+
+elementoButton.addEventListener("click", () => {
+  let start = document.getElementById("start");
+  let passoAtual = intro.inicio;
+
+  start.innerHTML = `<div>
+        <section class="gameblock">
+            <h1 id="historia" class="imgblock"></h1>
+            <img id="imagem" class="imgblock" src= "" alt="Imagens do jogo">
+        </section>
+       <div>
+
+<section>
+ <div class = click-button>
+        <button id="button1" class="buttons-question"></button>   
+        <button id="button2" class="buttons-question"></button>
+      </div>
+</section>`;
+  const elementoHistoria = document.getElementById("historia");
+  const elementoImagem = document.getElementById("imagem");
+  const elementoButton1 = document.getElementById("button1");
+  const elementoButton2 = document.getElementById("button2");
+  elementoButton1.addEventListener("click", function() {
+    
+    aoClicarNoBotao(
+      elementoButton1,
+      elementoHistoria,
+      elementoImagem,
+      elementoButton2,
+      passoAtual
+    );
+  });
+  
+  elementoButton2.addEventListener("click", () => {
+    
+    aoClicarNoBotao(
+      elementoButton2,
+      elementoHistoria,
+      elementoImagem,
+      elementoButton1,
+      passoAtual
+    );
+  });
 
 
-// elementoButton.addEventListener("click", () => {
-//     if (count === 1) {
-//       aoClicarNoBotao();
-//     }
-//     count++;
-// });
+  atualizarTela(
+    elementoHistoria,
+    elementoImagem,
+    elementoButton1,
+    elementoButton2,
+    passoAtual
+  );
+});

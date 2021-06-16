@@ -107,7 +107,6 @@ h1 {
   border: 2;
   background-color: rgba(13, 17, 37, 0.664);
   color: white;
-  /* background-size: cover; */
   height: 100%;
   width: 80%;
   font-size: 20px;
@@ -118,6 +117,3 @@ h1 {
   text-align: center;
 }
 
-.button:active {
-  border: 0;
-}
