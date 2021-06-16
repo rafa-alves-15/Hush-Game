@@ -8,8 +8,7 @@ const intro = {
       passo: "h1",
     },
     button2: {
-      texto:
-        "Você rejeita ajudar Sarah e diz que está muito ocupada",
+      texto: "Você rejeita ajudar Sarah e diz que está muito ocupada",
       passo: "h1",
     },
   },
@@ -26,42 +25,34 @@ const intro = {
     },
   },
   h2: {
-    historia: "Um pouco mais tarde, você vai pra cozinha lavar o restante da louça, Sarah aparece batendo na porta de vidro da cozinha, mas você não percebe, então o assassino aparece e começa a esfaquear Sarah",
-    imagem: "",
+    historia:
+      "Um pouco mais tarde, você vai a cozinha lavar o restante da louça, Sarah aparece batendo na porta de vidro da cozinha. Então o assassino aparece e começa a esfaquear Sarah",
+    imagem: "Imagens/imagens/sarah-morre.png",
     button1: {
-      texto:
-        "...",
+      texto: "Proxímo",
       passo: "h3",
     },
-    button2: {
-      texto:
-        "...",
-      passo: "h3",
-    },
+ 
   },
   h3: {
-    historia: "",
-    imagem: "",
+    historia:
+      "O assassino percebe que você ignorou Sarah, e começa a bater o corpo dela para ver sua reação, mas você não o perce, e ele nota que tem algo diferente em você.",
+    imagem: "Imagens/gifs/observando.gif",
     button1: {
-      texto:
-        "",
+      texto: "Proxímo",
       passo: "h4",
     },
-    button2: {
-      texto: "",
-      passo: "h5",
-    },
+
   },
   h4: {
-    historia: "",
+    historia: "Então você ",
     imagem: "",
     button1: {
       texto: "",
       passo: "h6",
     },
     button2: {
-      texto:
-        "",
+      texto: "",
       passo: "h6",
     },
   },
@@ -69,16 +60,15 @@ const intro = {
     historia: "",
     imagem: "",
     button1: {
-      texto:
-        "",
-      passo: "h6",
+      texto: "",
+      passo: "umaOp",
     },
     button2: {
-      texto:
-        "",
+      texto: "",
     },
+    passo: "umaOp",
   },
- 
+
   fim: {
     historia: "",
     imagem: "",
