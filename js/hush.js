@@ -20,7 +20,7 @@ const intro = {
       passo: "h2",
     },
     button2: {
-      texto: "você não fala nada, da as costa e entra dentro de casa.",
+      texto: "Você não fala nada, da as costa e entra dentro de casa.",
       passo: "h2",
     },
   },
@@ -52,8 +52,8 @@ const intro = {
   },
   h4: {
     historia:
-      "Em seguida você vai para o sofá e abre o Macbook para continuar escrevendo seu livro, e o assasino então na casa e vai se aproximando de você, e no exato momento sua irmã Max te liga ",
-    imagem: "",
+      "Em seguida você vai para o sofá e abre o Macbook para continuar escrevendo seu livro, e o assasino então na casa e vai se aproximando de você, e nesse exato momento sua irmã Max te liga ",
+    imagem: "Imagens/imagens/trabalhando.png",
     button1: {
       texto: "Você aceita a ligação de Max",
       passo: "h5",
@@ -65,45 +65,46 @@ const intro = {
   },
   h5: {
     historia:
-      "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular ",
-    imagem: "",
+      "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular, então Max diz que vê algo se movimentando atraz de você",
+    imagem: "Imagens/imagens/furtando-celular.png",
     button1: {
-      texto: "Você levanta vai até proximo a porta de entrada",
+      texto: "Você diz que é só gato.",
       passo: "h6",
     },
     button2: {
-      texto:
-        "Você manda mensagem pra saber quem é a pessoa pegou seu celular e tirou fotos suas com ele",
+      texto: "Você olha para traz para ver o que é.",
       passo: "h6",
     },
   },
   h6: {
-    historia: "E você vê o um cara de mascará com uma besta nas costa",
-    imagem: "",
+    historia:
+      "Assim que você desliga a chamade de vídeo com Max o assassino envia varias fotos suas para seu Macbook, ando pela casa, e fotos de agora sentada no sofá, todas enviadas pelo seu celular",
+    imagem: "Imagens/imagens/ve-o-assasino.jpg",
     button1: {
-      texto: "você corre e fecha a porta.",
+      texto: "Você se levanta e vai até proximo a porta de entrada",
       passo: "h7",
     },
     button2: {
-      texto: "você vai na cozinha e pega uma faca.",
+      texto:
+        "Você manda mensagem pra saber quem pegou seu celular e tirou fotos suas",
       passo: "h7",
     },
   },
   h7: {
-    historia: "",
-    imagem: "",
+    historia: "Você vê o um cara de mascará com uma besta nas costa",
+    imagem: "Imagens/imagens/",
     button1: {
-      texto: "",
+      texto: "Você corre até a porta e tranca rapidamente.",
       passo: "h8",
     },
     button2: {
-      texto: "",
+      texto: "Você vai na cozinha e pega uma faca.",
       passo: "h8",
     },
   },
   h8: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h9",
@@ -115,7 +116,7 @@ const intro = {
   },
   h9: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h10",
@@ -127,7 +128,7 @@ const intro = {
   },
   h10: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h11",
@@ -139,7 +140,7 @@ const intro = {
   },
   h11: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h12",
@@ -151,7 +152,7 @@ const intro = {
   },
   h12: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h13",
@@ -163,7 +164,7 @@ const intro = {
   },
   h13: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h14",
@@ -175,7 +176,7 @@ const intro = {
   },
   h14: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h15",
@@ -187,7 +188,7 @@ const intro = {
   },
   h15: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h16",
@@ -199,7 +200,7 @@ const intro = {
   },
   h16: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h17",
@@ -211,7 +212,7 @@ const intro = {
   },
   h17: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h18",
@@ -223,7 +224,7 @@ const intro = {
   },
   h18: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h19",
@@ -235,7 +236,7 @@ const intro = {
   },
   h19: {
     historia: "",
-    imagem: "",
+    imagem: "Imagens/imagens/",
     button1: {
       texto: "",
       passo: "h20",
@@ -248,19 +249,14 @@ const intro = {
 
   fim: {
     historia: "",
-    imagem: "",
-    botao1: null,
-    botao2: null,
+    imagem: "Imagens/imagens/",
+    botao1: "Voltar para p Início",
+    passo: "inicio",
   },
-  umaOp: {
+  fimR: {
     historia: "",
-    imagem: "",
-    botao1: {
-      texto: "continua",
-      passo: "fim",
-    },
+    imagem: "Imagens/imagens/",
+    botao1: "Voltar para p Início",
+    passo: "inicio",
   },
 };
-
-
-//Você é um(a) escritoro(a) que vive uma vida isolada desde que perdeu sua audição quando era adolescente, se colando em um mundo de total silêncio. Sua amiga e vizinha Sarah a visita um dia para devolver uma cópia de um de seus livros
