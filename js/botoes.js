@@ -44,7 +44,6 @@ function aoClicarNoBotao(
   }
 
 elementoButton.addEventListener("click", () => {
-
   let start = document.getElementById("start");
   let passoAtual = intro.inicio;
 
@@ -61,7 +60,6 @@ elementoButton.addEventListener("click", () => {
         <button id="button2" class="buttons-question"></button>
       </div>
 </section>`;
-
   const elementoHistoria = document.getElementById("historia");
   const elementoImagem = document.getElementById("imagem");
   const elementoButton1 = document.getElementById("button1");
