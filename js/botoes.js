@@ -47,7 +47,10 @@ elementoButton.addEventListener("click", () => {
   let start = document.getElementById("start");
   let passoAtual = intro.inicio;
 
-  start.innerHTML = `<div>
+  start.innerHTML = `<header>
+  <img class="logo" src="./Imagens/Logo/logo.png">
+</header>
+  <div>
         <section class="gameblock">
             <h1 id="historia" class="imgblock"></h1>
             <img id="imagem" class="imgblock" src= "" alt="Imagens do jogo">
