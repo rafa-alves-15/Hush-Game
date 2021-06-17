@@ -78,7 +78,7 @@ const intro = {
   },
   h6: {
     historia:
-      "Assim que você desliga a chamade de vídeo com Max o assassino envia varias fotos suas para seu Macbook, ando pela casa, e fotos de agora sentada no sofá, todas enviadas pelo seu celular",
+      "Assim que você desliga a chamada de vídeo com Max, o assassino envia varias fotos suas para seu Macbook, andando pela casa, e fotos de agora sentada no sofá, todas enviadas pelo seu celular",
     imagem: "Imagens/imagens/ve-o-assasino.jpg",
     button1: {
       texto: "Você se levanta e vai até proximo a porta de entrada",
@@ -91,10 +91,10 @@ const intro = {
     },
   },
   h7: {
-    historia: "Você vê o um cara de mascará com uma besta nas costa",
+    historia: "Você vê o um cara de mascará com uma besta na costas",
     imagem: "Imagens/imagens/",
     button1: {
-      texto: "Você corre até a porta e tranca rapidamente.",
+      texto: "Você se levanta até a porta de entrada e tranca rapidamente.",
       passo: "h8",
     },
     button2: {
