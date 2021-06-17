@@ -80,7 +80,7 @@ h1 {
   font-size: 20px;
 }
 
-/* .buttons {
+.buttons {
   background-color: rgba(13, 17, 37, 0.664);
   color: white;
   padding: 15px 32px;
@@ -88,7 +88,9 @@ h1 {
   font-size: 20px;
   width: 80%;
   height: 100%;
-} */
+  margin-top: 80%;
+  border: solid white 2px;
+}
 
 .click-button {
   color: white;
