@@ -25,8 +25,8 @@ function aoClicarNoBotao(
   elementoButton1,
   elementoButton2,
   passoAtual){
-  const botaoClicado = elementoBotao.id;
-  const proximoPasso = passoAtual[botaoClicado].passo;
+  let botaoClicado = elementoBotao.id;
+  let proximoPasso = passoAtual[botaoClicado].passo;
   passoAtual = intro[proximoPasso];
   if (!passoAtual) {
     alert("Passo " + proximoPasso + " não encontrado!");
@@ -45,22 +45,24 @@ function aoClicarNoBotao(
 
 elementoButton.addEventListener("click", () => {
 
-  let start = document.getElementById("start");
+  let start = document.getElementById("start","Logo");
   let passoAtual = intro.inicio;
 
-  start.innerHTML = `<div>
+  start.innerHTML = `<header>
+  <img id="Logo" class="logo" src="./Imagens/Logo/logo.png">
+</header>
+  <div>
         <section class="gameblock">
             <h1 id="historia" class="imgblock"></h1>
             <img id="imagem" class="imgblock" src= "" alt="Imagens do jogo">
         </section>
        <div>
-
 <section>
  <div class = click-button>
         <button id="button1" class="buttons-question"></button>   
         <button id="button2" class="buttons-question"></button>
       </div>
-</section>`;
+</section>`
 
   const elementoHistoria = document.getElementById("historia");
   const elementoImagem = document.getElementById("imagem");

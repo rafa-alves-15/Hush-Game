@@ -25,36 +25,6 @@ header {
   padding-left: 70px;
 }
 
-/* 
-.title {
-  font-size: 50px;
-  text-align: center;
-  text-decoration: solid;
-} */
-
-/* .story {
-  background-color: rgba(0, 0, 0, 0.87);
-  height: 600px;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-} */
-
-/* .text {
-  width: 80%;
-  height: 40%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: justify;
-  padding-top: 5em;
-  padding-left: 3em;
-  padding-right: 3em;
-  margin-bottom: 10%;
-} */
-
 .gameblock {
   display: flex;
   align-items: center;
