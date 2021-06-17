@@ -48,15 +48,24 @@ const intro = {
     imagem: "",
     button1: {
       texto: "Você aceita a ligação de Max",
+<<<<<<< HEAD
       passo: "h5",
     },
     button2: {
       texto: "Você Recusa a liga de Max",
       passo: "h5",
+=======
+      passo: "h6",
+    },
+    button2: {
+      texto: "Você Recusa a liga de Max",
+      passo: "h6",
+>>>>>>> 6cc1af6fd31b13b64c3cdc6348c82a2012286ce1
     },
   },
   h5: {
     historia:
+<<<<<<< HEAD
       "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular  ",
     imagem: "",
     button1: {
@@ -231,11 +240,22 @@ const intro = {
     button1: {
       texto: "",
       passo: "h20",
+=======
+      "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular e tira varias fotos de dentro da casa e suas",
+    imagem: "",
+    button1: {
+      texto: "",
+      passo: "umaOp",
+>>>>>>> 6cc1af6fd31b13b64c3cdc6348c82a2012286ce1
     },
     button2: {
       texto: "",
     },
+<<<<<<< HEAD
     passo: "h20",
+=======
+    passo: "umaOp",
+>>>>>>> 6cc1af6fd31b13b64c3cdc6348c82a2012286ce1
   },
 
   fim: {
