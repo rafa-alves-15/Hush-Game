@@ -70,10 +70,10 @@ const intro = {
   },
   h5: {
     historia:
-      "E você vê o um cara de mascará com uma besta ",
+      "E você vê o um cara de mascará com uma besta e com seu celular na mão ",
     imagem: "",
     button1: {
-      texto: "",
+      texto: "você corre até",
       passo: "h8",
     },
     button2: {
