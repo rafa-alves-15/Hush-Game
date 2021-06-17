@@ -144,23 +144,24 @@ const intro = {
       "O assassino vai até seu carro e pega uma ferramenta, e volra até a porta de entrada, e começa a quebrar o vidro da porta.",
     imagem: "Imagens/imagens/quebrando-o-vidro.png",
     button1: {
-      texto: "",
+      texto: "Você se esconde dentrodo banheiro.",
       passo: "h12",
     },
     button2: {
-      texto: "",
+      texto: "Você se esconde no quarto do andar de cima.",
       passo: "h12",
     },
   },
   h12: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia:
+      "O assassino entra pela janela banheiro, e acaba suspirando na suas costas. E tenta dar um facado no seu pescoço",
+    imagem: "Imagens/imagens/acertando-o-assassino.png",
     button1: {
-      texto: "",
+      texto: "Você desvia e acerta ele com a sua faça, e sai correndo.",
       passo: "h13",
     },
     button2: {
-      texto: "",
+      texto: "Você desvia e acerta ele com a sua faça, e tenta matá-lo",
       passo: "h13",
     },
   },
