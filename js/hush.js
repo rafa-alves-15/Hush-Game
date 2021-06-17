@@ -20,7 +20,8 @@ const intro = {
       passo: "h2",
     },
     button2: {
-      texto: "Você não fala nada, e da as costa, e voltando para dentro de casa.",
+      texto:
+        "Você não fala nada, e da as costa, e voltando para dentro de casa.",
       passo: "h2",
     },
   },
@@ -91,8 +92,8 @@ const intro = {
     },
   },
   h7: {
-    historia: "Você vê o um cara de mascará com uma besta na costas",
-    imagem: "Imagens/imagens/",
+    historia: "Você vê o um cara de mascará com uma besta na costas.",
+    imagem: "Imagens/imagens/assasino-com-celular.jpg",
     button1: {
       texto: "Você se levanta até a porta de entrada e tranca rapidamente.",
       passo: "h8",
@@ -103,44 +104,45 @@ const intro = {
     },
   },
   h8: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "O assassino começa a andar para próxima porta.",
+    imagem: "Imagens/imagens/assassino-movimentado.png",
     button1: {
-      texto: "",
+      texto: "Você o segue, e tranca todas as portas.",
       passo: "h9",
     },
     button2: {
-      texto: "",
+      texto: "Você abre a porta e sai correndo.",
       passo: "h9",
     },
   },
   h9: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "O assassino vai para trás da casa, e desliga toda energia casa.",
+    imagem: "Imagens/imagens/desligando-a-energia.png",
     button1: {
-      texto: "",
+      texto: "Você vai até a cosinha e pega uma faca.",
       passo: "h10",
     },
     button2: {
-      texto: "",
+      texto: "Você senta no chão e começa a fica desesperada e chora.",
       passo: "h10",
     },
   },
   h10: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "Ele volta e começa a te encarar, e tira a máscara.",
+    imagem: "Imagens/gifs/tirando-a-mascara.gif",
     button1: {
-      texto: "",
+      texto: "Você tenta se enconde em algum lugar seguro.",
       passo: "h11",
     },
     button2: {
-      texto: "",
+      texto: "Você começa a encarar de volta.",
       passo: "h11",
     },
   },
   h11: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia:
+      "O assassino vai até seu carro e pega uma ferramenta, e volra até a porta de entrada, e começa a quebrar o vidro da porta.",
+    imagem: "Imagens/imagens/quebrando-o-vidro.png",
     button1: {
       texto: "",
       passo: "h12",
