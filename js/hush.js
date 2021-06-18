@@ -39,7 +39,7 @@ const intro = {
   },
   h3: {
     historia:
-      "O assassino percebe que você ignorou Sarah, e começa a bater o corpo dela na porta para ver sua reação. Você não o percebe, e ele nota que tem algo diferente em você.",
+      "O assassino percebe que você ignorou Sarah, e começa a bater o corpo dela na porta para ver sua reação. Mas você não o percebe, e ele nota que tem algo diferente em você.",
     imagem: "Imagens/gifs/observando.gif",
     button1: {
       texto: "Próximo.",
