@@ -30,11 +30,11 @@ const intro = {
       "Um pouco mais tarde, você vai a cozinha, lavar o restante da louça, Sarah aparece batendo na porta de vidro da cozinha. Então o assassino aparece e começa a esfaquear Sarah.",
     imagem: "Imagens/imagens/sarah-morre.png",
     button1: {
-      texto: "Proxímo",
+      texto: "Proxímo.",
       passo: "h3",
     },
     button2: {
-      texto: "Proxímo",
+      texto: "Proxímo.",
       passo: "h3",
     },
   },
@@ -43,17 +43,17 @@ const intro = {
       "O assassino percebe que você ignorou Sarah, e começa a bater o corpo dela para ver sua reação, mas você não o percebe, e ele nota que tem algo diferente em você.",
     imagem: "Imagens/gifs/observando.gif",
     button1: {
-      texto: "Proxímo",
+      texto: "Proxímo.",
       passo: "h4",
     },
     button2: {
-      texto: "Proxímo",
+      texto: "Proxímo.",
       passo: "h4",
     },
   },
   h4: {
     historia:
-      "Em seguida você vai para o sofá e abre o Macbook, para continuar escrevendo seu livro, e o assasino entra em sua casa e vai se aproximando de você, e nesse exato momento sua irmã Max te liga.",
+      "Em seguida você vai para o sofá e abre o Macbook, para continuar escrevendo seu livro, e o assassino entra em sua casa e vai se aproximando de você, e nesse exato momento sua irmã Max te liga.",
     imagem: "Imagens/imagens/trabalhando.png",
     button1: {
       texto: "Você aceita a ligação de Max.",
@@ -61,7 +61,46 @@ const intro = {
     },
     button2: {
       texto: "Você Recusa a liga de Max.",
-      passo: "h5",
+      passo: "h4t",
+    },
+  },
+  h4t: {
+    historia:
+      "O assassino se aproximou de você, e você viu pelo reclexo da tela do Macbook.",
+    imagem: "Imagens/imagens/assasino-se-aproxima.jpg",
+    button1: {
+      texto: "Você tenta ir pra cima dele.",
+      passo: "h4tt",
+    },
+    button2: {
+      texto: "Você tenta correr.",
+      passo: "h4tt",
+    },
+  },
+  h4tt: {
+    historia:
+      "O assassino te esfaqueando na perna e te joga no chão, e começa a te sufocar.",
+    imagem: "Imagens/imagens/matando.png",
+    button1: {
+      texto: "Você tenta sair mais não consegue.",
+      passo: "h4f",
+    },
+    button2: {
+      texto: "Você tenta sair mais não consegue.",
+      passo: "h4f",
+    },
+  },
+  h4f: {
+    historia:
+      "O assassino consegue tirar todo o seu ar, e você morre, e ele vai embora.",
+    imagem: "Imagens/imagens/morta-3.png",
+    button1: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
+    },
+    button2: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
     },
   },
   h5: {
@@ -69,12 +108,38 @@ const intro = {
       "Ao decorrer da conversa com Max, o assasino se esconde e furta seu celular, então Max diz que vê algo se movimentando atrás de você.",
     imagem: "Imagens/imagens/furtando-celular.png",
     button1: {
+      texto: "Você olha para trás para ver o que é.",
+      passo: "h5tt",
+    },
+    button2: {
       texto: "Você diz que é só gato.",
       passo: "h6",
     },
+  },
+  h5tt: {
+    historia:
+      "Você vê o assassino, ele vai pra cima de você e segura no seu pescoço com as duas mão e te joga no chão, e começa a te sufocar. E Max assistindo tudo.",
+    imagem: "Imagens/imagens/matando.png",
+    button1: {
+      texto: "Você tenta sair mais não consegue.",
+      passo: "h5f",
+    },
     button2: {
-      texto: "Você olha para trás para ver o que é.",
-      passo: "h6",
+      texto: "Você tenta sair mais não consegue.",
+      passo: "h5f",
+    },
+  },
+  h5f: {
+    historia:
+      "O assassino consegue tirar todo o seu ar, e você morre, ele desliga a ligação de Max e vai embora.",
+    imagem: "Imagens/imagens/morta-3.png",
+    button1: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
+    },
+    button2: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
     },
   },
   h6: {
@@ -82,13 +147,76 @@ const intro = {
       "Assim que você desliga a chamada de vídeo com Max, o assassino envia várias fotos suas para seu Macbook, andando pela casa, e fotos de agora sentada no sofá, todas enviadas pelo seu celular.",
     imagem: "Imagens/imagens/ve-o-assasino.jpg",
     button1: {
-      texto: "Você se levanta, e vai até proximo a porta de entrada.",
-      passo: "h7",
+      texto:
+      "Você manda mensagem pra saber se era a Sarah que pegou seu celular, e está brincando com você.",
+      passo: "h6tt",
     },
     button2: {
-      texto:
-        "Você manda mensagem pra saber quem pegou seu celular, e tirou fotos suas.",
+      texto: "Você se levanta, e vai até próximo a porta de entrada.",
       passo: "h7",
+    },
+  },
+  h6tt: {
+    historia: "Então o assassino vê mensagem e entra dentro da casa.",
+    imagem: "Imagens/imagens/correr.png",
+    button1: {
+      texto: "E você se assusta tenta correr.",
+      passo: "h6tf",
+    },
+    button2: {
+      texto: "Você tenta bater nele com o Macbook.",
+      passo: "h6ft",
+    },
+  },
+  h6tf: {
+    historia:
+      "O assassino vai atrás de você e atira com a besta na sua perna, e você cai no chão.",
+    imagem: "Imagens/imagens/atirando.png",
+    button1: {
+      texto: "Você tenta ir se arrastando até o carro.",
+      passo: "h6f",
+    },
+    button2: {
+      texto: "Você começa a gritar pedindo ajuda.",
+      passo: "h6f",
+    },
+  },
+  h6f: {
+    historia:
+      "O assassino pega uma pedra bate varias vezes na sua cabeça até você morrer.",
+    imagem: "Imagens/imagens/morta.png",
+    button1: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
+    },
+    button2: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "inicio",
+    },
+  },
+  h6ft: {
+    historia: "O assassino te mata, então ele se levanta, em vai embora",
+    imagem: "Imagens/imagens/matando.png",
+    button1: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "h6ff",
+    },
+    button2: {
+      texto: "Você perdeu. Voltar para o Início.",
+      passo: "h6ff",
+    },
+  },
+  h6ff: {
+    historia:
+      "O assassino te joga contra a parede, e te sufoca, até você perder a respiração.",
+    imagem: "Imagens/imagens/morta-3.png",
+    button1: {
+      texto: "Você tenta fazer alguma coisa mais não consegue.",
+      passo: "inicio",
+    },
+    button2: {
+      texto: "Você tenta fazer alguma coisa mais não consegue.",
+      passo: "inicio",
     },
   },
   h7: {
@@ -228,13 +356,9 @@ const intro = {
     historia:
       "A polícia está chegando, e você sobreviveu a um ataque de um louco, Parabéns",
     imagem: "Imagens/imagens/fim.png",
-    botao1: "Voltar para o Início",
-    passo: "inicio",
-  },
-  fimR: {
-    historia: "",
-    imagem: "Imagens/imagens/",
-    botao1: "Voltar para o Início",
-    passo: "inicio",
+    botao1: {
+      texto: "Voltar para o Início",
+      passo: "inicio",
+    },
   },
 };
