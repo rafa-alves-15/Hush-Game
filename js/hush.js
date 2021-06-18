@@ -195,7 +195,7 @@ const intro = {
       "O assassino se fasta de você e derruma a faca dele e o saca rolhas que estava em cima da mesa, você tenta se levanta e ele vai pra cima de você e te derruba no chão e tenta te enforcar.",
     imagem: "Imagens/imagens/enforcando.png",
     button1: {
-      texto: "Você tenta pegar o saca rolha pra para acertar ele ",
+      texto: "Você tenta pegar o saca rolhas pra para acertar ele ",
       passo: "h16",
     },
     button2: {
