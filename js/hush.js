@@ -161,105 +161,80 @@ const intro = {
       passo: "h13",
     },
     button2: {
-      texto: "Você desvia e acerta ele com a sua faça, e tenta matá-lo",
+      texto: "Você desvia e acerta ele com a sua faça, e tenta matá-lo.",
       passo: "h13",
     },
   },
   h13: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia:
+      "Perto da cosinha, você tropeça e machuca sua pena, e o assassino esta indo até você, mas você esta longe das facas, e tem um inseticida perto de você.",
+    imagem: "Imagens/imagens/indo-ate-voce.png",
     button1: {
-      texto: "",
+      texto: "Você fingue bateu a cabeça e desmaio",
       passo: "h14",
     },
     button2: {
-      texto: "",
+      texto: "Você levante e tenta pegar faca.",
       passo: "h14",
     },
   },
   h14: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "o assassino te vê joga no chão, e tenta te esfaquear.",
+    imagem: "Imagens/imagens/desmaiada.png",
     button1: {
-      texto: "",
+      texto: "Você joga o veno nos olhos dele.",
       passo: "h15",
     },
     button2: {
-      texto: "",
+      texto: "Você tenta levantar pra correr.",
       passo: "h15",
     },
   },
   h15: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia:
+      "O assassino se fasta de você e derruma a faca dele e o saca rolhas que estava em cima da mesa, você tenta se levanta e ele vai pra cima de você e te derruba no chão e tenta te enforcar.",
+    imagem: "Imagens/imagens/enforcando.png",
     button1: {
-      texto: "",
+      texto: "Você tenta pegar o saca rolha pra para acertar ele ",
       passo: "h16",
     },
     button2: {
-      texto: "",
+      texto: "Você morder a mão do ele.",
       passo: "h16",
     },
   },
   h16: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "Você acertou a jugular do assassino e mata ele.",
+    imagem: "Imagens/imagens/assassino-morto.png",
     button1: {
-      texto: "",
-      passo: "h17",
+      texto: "Você liga pra polícia",
+      passo: "h18",
     },
     button2: {
-      texto: "",
+      texto: "Você tenta liga o Carro",
       passo: "h17",
     },
   },
   h17: {
-    historia: "",
-    imagem: "Imagens/imagens/",
+    historia: "O assassino firou os pneus do carro",
+    imagem: "Imagens/imagens/pneu",
     button1: {
-      texto: "",
+      texto: "Você tenta ligar para a polícia",
       passo: "h18",
-    },
-    button2: {
-      texto: "",
-      passo: "h18",
-    },
-  },
-  h18: {
-    historia: "",
-    imagem: "Imagens/imagens/",
-    button1: {
-      texto: "",
-      passo: "h19",
-    },
-    button2: {
-      texto: "",
-      passo: "h19",
-    },
-  },
-  h19: {
-    historia: "",
-    imagem: "Imagens/imagens/",
-    button1: {
-      texto: "",
-      passo: "h20",
-    },
-    button2: {
-      texto: "",
-      passo: "h20",
     },
   },
 
-  fim: {
-    historia: "",
-    imagem: "Imagens/imagens/",
-    botao1: "Voltar para p Início",
+  h18: {
+    historia:
+      "A polícia está chegando, e você sobreviveu ao um homicídio louco, Parabéns",
+    imagem: "Imagens/imagens/fim.png",
+    botao1: "Voltar para o Início",
     passo: "inicio",
   },
   fimR: {
     historia: "",
     imagem: "Imagens/imagens/",
-    botao1: "Voltar para p Início",
+    botao1: "Voltar para o Início",
     passo: "inicio",
   },
 };
