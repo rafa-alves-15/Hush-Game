@@ -1,5 +1,4 @@
 document.getElementById("buttons").addEventListener("click", () => {
-  
   document.getElementById("start").innerHTML = `<header>
   <img class="logo" src="./Imagens/Logo/logo.png">
 </header>

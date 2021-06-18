@@ -13,7 +13,7 @@ const intro = {
     },
   },
   h1: {
-    historia: "Sarah se despede, vai embora.",
+    historia: "Sarah se despede, e vai embora.",
     imagem: "Imagens/imagens/sarah-indo-embora.png",
     button1: {
       texto: "Você se despede de Sarah, e em entra para dentro de casa.",
@@ -21,7 +21,7 @@ const intro = {
     },
     button2: {
       texto:
-        "Você não fala nada, e da as costa, e voltando para dentro de casa.",
+        "Você não fala nada, e da as costas, e voltando para dentro de casa.",
       passo: "h2",
     },
   },
@@ -66,7 +66,7 @@ const intro = {
   },
   h4t: {
     historia:
-      "O assassino se aproximou de você, e você viu pelo reclexo da tela do Macbook.",
+      "O assassino se aproximou de você, e vocÊ o vê pelo reflexo da tela do Macbook.",
     imagem: "Imagens/imagens/assasino-se-aproxima.jpg",
     button1: {
       texto: "Você tenta ir pra cima dele.",
@@ -79,20 +79,20 @@ const intro = {
   },
   h4tt: {
     historia:
-      "O assassino te esfaqueando na perna e te joga no chão, e começa a te sufocar.",
+      "O assassino esfaqueia sua perna e te joga no chão. E em seguida começa a te sufocar.",
     imagem: "Imagens/imagens/matando.png",
     button1: {
-      texto: "Você tenta sair mais não consegue.",
+      texto: "Você tenta sair, mais não consegue.",
       passo: "h4f",
     },
     button2: {
-      texto: "Você tenta sair mais não consegue.",
+      texto: "Você tenta sair, mais não consegue.",
       passo: "h4f",
     },
   },
   h4f: {
     historia:
-      "O assassino consegue tirar todo o seu ar, e você morre, e ele vai embora.",
+      "O assassino consegue tirar todo o seu folego, e você morre, e ele vai embora.",
     imagem: "Imagens/imagens/morta-3.png",
     button1: {
       texto: "Você perdeu. Voltar para o Início.",
@@ -148,7 +148,7 @@ const intro = {
     imagem: "Imagens/imagens/ve-o-assasino.jpg",
     button1: {
       texto:
-      "Você manda mensagem pra saber se era a Sarah que pegou seu celular, e está brincando com você.",
+        "Você manda mensagem pra saber se era a Sarah que pegou seu celular, e está brincando com você.",
       passo: "h6tt",
     },
     button2: {
@@ -183,7 +183,7 @@ const intro = {
   },
   h6f: {
     historia:
-      "O assassino pega uma pedra bate varias vezes na sua cabeça até você morrer.",
+      "O assassino pega uma pedra bate várias vezes na sua cabeça até você morrer.",
     imagem: "Imagens/imagens/morta.png",
     button1: {
       texto: "Você perdeu. Voltar para o Início.",
@@ -208,7 +208,7 @@ const intro = {
   },
   h6ff: {
     historia:
-      "O assassino te joga contra a parede, e te sufoca, até você perder a respiração.",
+      "O assassino te joga contra a parede, e te sufoca, até você perder a respiraçã. Você tenta fazer alguma coisa mais não consegue, e morre. O assassino rouba o MacBook e vai embora.",
     imagem: "Imagens/imagens/morta-3.png",
     button1: {
       texto: "Você tenta fazer alguma coisa mais não consegue.",
@@ -247,7 +247,7 @@ const intro = {
     historia: "O assassino vai para trás da casa, e desliga toda energia casa.",
     imagem: "Imagens/imagens/desligando-a-energia.png",
     button1: {
-      texto: "Você vai até a cosinha e pega uma faca.",
+      texto: "Você vai até a cozinha e pega uma faca.",
       passo: "h10",
     },
     button2: {
@@ -295,7 +295,7 @@ const intro = {
   },
   h13: {
     historia:
-      "Perto da cosinha, você tropeça e machuca sua pena, e o assassino esta indo até você, mas você esta longe das facas, e tem um inseticida perto de você.",
+      "Perto da cozinha, você tropeça e machuca sua perna, e o assassino esta indo até você, mas você esta longe das facas, e tem um inseticida perto de você.",
     imagem: "Imagens/imagens/indo-ate-voce.png",
     button1: {
       texto: "Você fingue bateu a cabeça e desmaio",
@@ -307,7 +307,8 @@ const intro = {
     },
   },
   h14: {
-    historia: "o assassino te vê joga no chão, e tenta te esfaquear.",
+    historia:
+      "O assassino te vê e acaba te jogando no chão, e tenta te esfaquear.",
     imagem: "Imagens/imagens/desmaiada.png",
     button1: {
       texto: "Você joga o veno nos olhos dele.",
@@ -335,30 +336,27 @@ const intro = {
     historia: "Você acertou a jugular do assassino e mata ele.",
     imagem: "Imagens/imagens/assassino-morto.png",
     button1: {
-      texto: "Você liga pra polícia",
+      texto: "Você liga pra polícia.",
       passo: "h18",
     },
     button2: {
-      texto: "Você tenta liga o Carro",
+      texto: "Você tenta liga o Carro.",
       passo: "h17",
     },
   },
   h17: {
-    historia: "O assassino firou os pneus do carro",
+    historia: "O assassino firou os pneus do carro.",
     imagem: "Imagens/imagens/pneu",
     button1: {
-      texto: "Você tenta ligar para a polícia",
+      texto: "Você tenta ligar para a polícia.",
       passo: "h18",
     },
   },
 
   h18: {
     historia:
-      "A polícia está chegando, e você sobreviveu a um ataque de um louco, Parabéns",
+      "A polícia está chegando, e você sobreviveu a um ataque de um louco, Parabéns.",
     imagem: "Imagens/imagens/fim.png",
-    botao1: {
-      texto: "Voltar para o Início",
-      passo: "inicio",
-    },
+    botao1: {},
   },
 };
