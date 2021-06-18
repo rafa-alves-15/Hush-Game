@@ -226,7 +226,7 @@ const intro = {
 
   h18: {
     historia:
-      "A polícia está chegando, e você sobreviveu ao um homicídio louco, Parabéns",
+      "A polícia está chegando, e você sobreviveu a um ataque de um louco, Parabéns",
     imagem: "Imagens/imagens/fim.png",
     botao1: "Voltar para o Início",
     passo: "inicio",
